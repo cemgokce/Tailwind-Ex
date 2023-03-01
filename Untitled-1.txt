@@ -1,0 +1,28 @@
+<div className="text-white">
+      <div className="max-w-[1024px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+        <p className="text-[#00df9a] font-bold p-2">Daha iyi bir yaşam</p>
+        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
+          Etkinlikleri kaçırma.
+        </h1>
+        <div className="flex justify-center items-center">
+          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
+            Randevü ayarla
+          </p>
+          <Typed
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
+            strings={["Berber", "Çay sohbetin", "Düğün", "Doğum günü partisin"]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
+          <span className="md:text-4xl sm:text-4xl text-xl font-bold ">
+            'e
+          </span>
+        </div>
+        <p className="md:text-2xl text-xl font-bold text-gray-500 ">
+          Hayatınızı daha aktif ve özgür yaşamanızı sağlamak için takvim
+          kullanın.
+        </p>
+        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Get started</button>
+      </div>
+    </div>
